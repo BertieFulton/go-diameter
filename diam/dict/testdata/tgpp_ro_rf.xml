@@ -19,6 +19,10 @@
 			<data type="UTF8String"/>
 		</avp>
 
+		<avp name="TGPP-GPRS-Negotiated-QoS-Profile" code="5" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="UTF8String"/>
+                </avp>
+
 		<avp name="TGPP-IMSI-MCC-MNC" code="8" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
 			<data type="UTF8String"/>
 		</avp>
