@@ -636,6 +636,7 @@ const (
 	TGPPIMSIMCCMNC                             = 8
 	TGPPMSTimeZone                             = 23
 	TGPPNSAPI                                  = 10
+	TGPPNegotiatedDSCP                         = 26
 	TGPPPDPType                                = 3
 	TGPPRATType                                = 21
 	TGPPSGSNAddress                            = 6
