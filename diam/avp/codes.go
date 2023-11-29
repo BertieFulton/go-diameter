@@ -626,6 +626,7 @@ const (
 	TFTFilter                                  = 1012
 	TFTPacketFilterInformation                 = 1013
 	TGPPAAAServerName                          = 318
+	TGPPCAMELChargingInfo                      = 24
 	TGPPChargingCharacteristics                = 13
 	TGPPChargingID                             = 2
 	TGPPGGSNAddress                            = 7

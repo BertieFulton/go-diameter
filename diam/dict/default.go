@@ -2491,6 +2491,10 @@ var tgpprorfXML = `<?xml version="1.0" encoding="UTF-8"?>
 			<data type="OctetString"/>
 		</avp>
 
+		<avp name="TGPP-CAMEL-Charging-Info" code="24" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+			<data type="OctetString"/>
+		</avp>
+
 		<avp name="TGPP-NSAPI" code="10" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
 			<data type="OctetString"/>
 		</avp>
