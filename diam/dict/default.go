@@ -2479,8 +2479,76 @@ var tgpprorfXML = `<?xml version="1.0" encoding="UTF-8"?>
 			<data type="UTF8String"/>
 		</avp>
 
-		<avp name="TGPP-GPRS-Negotiated-QoS-Profile" code="5" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                <avp name="TGPP-CG-Address" code="4" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-GPRS-Negotiated-QoS-Profile" code="5" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
                         <data type="UTF8String"/>
+                </avp>
+
+                <avp name="TGPP-SGSN-Address" code="6" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-GGSN-Address" code="7" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-CG-IPv6-Address" code="14" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-SGSN-IPv6-Address" code="15" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-GGSN-IPv6-Address" code="16" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-IPv6-DNS-Servers" code="17" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-IMEISV" code="20" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-CAMEL-Charging-Info" code="24" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-Packet-Filter" code="25" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-Negotiated-DSCP" code="26" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-Allocate-IP-Type" code="27" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TWAN-Identifier" code="29" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-User-Location-Info-Time" code="30" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-Secondary-RAT-Usage" code="31" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-UE-Local-IP-Address" code="32" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
+                </avp>
+
+                <avp name="TGPP-UE-Source-Port" code="33" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
+                        <data type="OctetString"/>
                 </avp>
 
 		<avp name="TGPP-IMSI-MCC-MNC" code="8" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
@@ -2488,14 +2556,6 @@ var tgpprorfXML = `<?xml version="1.0" encoding="UTF-8"?>
 		</avp>
 
 		<avp name="TGPP-MS-TimeZone" code="23" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
-			<data type="OctetString"/>
-		</avp>
-
-		<avp name="TGPP-CAMEL-Charging-Info" code="24" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
-			<data type="OctetString"/>
-		</avp>
-
-		<avp name="TGPP-Negotiated-DSCP" code="26" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="10415">
 			<data type="OctetString"/>
 		</avp>
 
