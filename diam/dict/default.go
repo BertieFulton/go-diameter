@@ -6689,3 +6689,12 @@ var tgppswxXML = `<?xml version="1.0" encoding="UTF-8"?>
 
     </application>
 </diameter>`
+
+var vodafoneXML = `<diameter>
+    <application id="4" type="auth" name="TGPP">
+	<vendor id="12645" name="Vodafone"/>
+	<avp name="User-Location-Information" code="267" must="V" may="P" must-not="M" may-encrypt="Y" vendor-id="12645">
+	    <data type="OctetString"/>
+        </avp>
+    </application>
+</diameter>`

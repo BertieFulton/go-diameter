@@ -729,6 +729,7 @@ const (
 	UserEquipmentInfoValue                     = 460
 	UserID                                     = 1444
 	UserLocationInfoTime                       = 2812
+	UserLocationInformation                    = 267
 	UserName                                   = 1
 	UserParticipatingType                      = 1279
 	UserPassword                               = 2
